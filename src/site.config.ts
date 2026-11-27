@@ -63,7 +63,17 @@ export const siteConfig = {
         'fr': 'fr-FR', // Example: Force FR
         'zh': 'zh-CN', // Example: Force CN
     }
-  }
+  },
+	faq: [
+		{ q: 'Is there a free plan?', a: 'Yes. The Free plan is free forever: up to 3 active clients, unlimited invoices, card and bank payments. PDFs carry a small Harbor line in the footer.' },
+		{ q: 'What does Harbor cost once I grow?', a: 'Solo is $9 a month for unlimited clients, reminders, recurring invoices and expenses. Studio is $24 a month for teams of up to five. Both include a 30-day free trial; no card needed to start.' },
+		{ q: 'Which payment methods can my clients use?', a: 'Card (Visa, Mastercard, Amex), bank transfer with the details printed on the invoice, and PayPal. Card payments cost 2.9% + $0.30; bank transfer and PayPal cost nothing extra from Harbor.' },
+		{ q: 'Which currencies are supported?', a: '28 currencies, including EUR, USD, GBP, CAD, AUD, JPY, CHF, SEK, NOK, DKK, PLN, CZK, INR, SGD, HKD, NZD, BRL and MXN. You can bill each client in a different one.' },
+		{ q: 'Can I import clients and old invoices?', a: 'Clients and invoices import from CSV, and directly from FreshBooks, Wave and Invoice Ninja. Imported invoices keep their original numbers and dates.' },
+		{ q: 'Does it handle VAT and sales tax?', a: 'Yes. Set a default rate per client, override it per line, and include VAT numbers on the PDF. EU reverse-charge wording is added automatically when both VAT numbers are present.' },
+		{ q: 'Where is my data stored, and can I leave?', a: 'Data is stored in the EU (Frankfurt) with daily backups. Export everything as CSV and PDF at any time from Settings; deleting the account removes it within 30 days.' },
+		{ q: 'Is there a mobile app?', a: 'Harbor is a web app that works on any phone, with offline drafts. Receipt capture uses the phone camera from the browser; there is nothing to install.' },
+	],
 };
 
 export const NAV_LINKS = [
