@@ -1,5 +1,5 @@
 ---
-import { site } from '../data/site';
+import { siteConfig } from '../data/site';
 ---
 <section id="faq" class="mx-auto max-w-6xl px-5 py-16">
 	<div class="grid gap-10 md:grid-cols-[1fr_1.2fr]">
@@ -19,7 +19,7 @@ import { site } from '../data/site';
 			</ask-page>
 		</div>
 		<dl class="divide-y divide-line">
-			{site.faq.map((f) => (
+			{siteConfig.faq.map((f) => (
 				<div class="py-4">
 					<dt class="font-display text-lg font-semibold">{f.q}</dt>
 					<dd class="mt-1 leading-relaxed text-ink-soft">{f.a}</dd>
